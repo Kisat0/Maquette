@@ -1,0 +1,100 @@
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/assets/img/header.jpg");
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: inset 0 0 10px 1000px #3621818c;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    height: 10vh;
+    background-color: rgb(110, 50, 94);
+    top:0;
+    left:0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 550px;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 0px 5px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: bold;
+    background: linear-gradient(-45deg, #11d11e,
+            #10d8ba, #1125dc, #32ba98);
+    background-size: 400% 400%;
+    animation: gradient 10s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip: text;       /* support pour un navi */
+    color: transparent;   /* afin de voir se qu'il y a derrière  */
+}
+
+h2 {
+    color: rgb(186, 186, 186);
+    font-weight: lighter;
+}
+
+.titles {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header input {
+    background-color: #EC9122;
+    padding: 15px 35px;
+    color: white;
+    border: none;
+    font-family: 'Open Sans';
+    transition: transform 700ms ease-in-out, box-shadow 700ms ease-in-out, background-color 700ms ease-in-out;
+}
+
+header input:hover {
+    background-color: #bd2ac5;
+    box-shadow: 0px 0px 10px #ffffff;
+    transform: scale(1.1);
+}
+
+.titles * {
+    margin: 10px 0px;
+}

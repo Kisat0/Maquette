@@ -1,0 +1,245 @@
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+ @keyframes gradient {
+   0% {
+     background-position: 0% 50%;
+   }
+
+   50% {
+     background-position: 100% 50%;
+
+   }
+
+   100% {
+     background-position: 0% 50%;
+   }
+ }
+
+ body {
+   width: 100%;
+   background-color: #141124;
+   color: white;
+ }
+
+
+ a {
+   text-decoration: none
+ }
+
+ .text {
+   margin-left: 10px;
+ }
+
+ .shiffres {
+   color: rgb(9, 220, 220);
+   text-transform: uppercase;
+   font-size: 35px;
+   font-weight: bold;
+ }
+
+ .description {
+   margin: 0 20px;
+
+ }
+
+ .stats {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   height: 50vh;
+   margin: 300px 0px;
+ }
+
+ .stat {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   width: 50%;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+   margin: 0px;
+ }
+
+ .statistique {
+   display: flex;
+   flex-direction: column;
+   width: 210px;
+   height: 140px;
+   margin: 0px 20px;
+   justify-content: center;
+   align-items: center;
+   transition: transform 1s ease-in-out;
+
+ }
+
+ .statistique:hover {
+   transform: rotate(360deg)
+ }
+
+ .stat-number {
+   font-size: 35px;
+   font-weight: bold;
+   font-family: 'Open Sans', sans-serif;
+ }
+
+ .stat-desc {
+   font-weight: bold;
+   font-family: 'Open Sans', sans-serif;
+ }
+
+ #wd {
+   width: 30%;
+   min-width: 600px;
+   min-height: 400px;
+   height: 30vh;
+   object-fit: cover;
+ }
+
+ #partie {
+   background-color: #3724A0;
+   text-align: center;
+   justify-content: center;
+ }
+
+ #joueurs1 {
+   background-color: #18A15F;
+   text-align: center;
+   justify-content: center;
+
+ }
+
+ #time {
+   background-color: #B91CA8;
+   text-align: center;
+   justify-content: center;
+
+ }
+
+ #joueurs {
+   background-color: #EC9122;
+   text-align: center;
+   justify-content: center;
+
+ }
+
+ #paragraphs {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-top: 300px;
+   width: 100%;
+ }
+
+ .image {
+   object-fit: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   height: 427px;
+   text-align: center;
+   margin-bottom: 20px;
+   transition: box-shadow 500ms ease-in-out;
+ }
+
+ .image:hover {
+   box-shadow: 0px 0px 5px white;
+ }
+
+ .computer {
+   width: 100%;
+ }
+
+ .paragraph {
+   display: flex;
+   flex-direction: row;
+   max-width: 640px;
+   margin-top: 50px;
+ }
+
+ .paragraph:last-child {
+   text-align: justify;
+ }
+
+ .para-title {
+   font-size: 20px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: bold;
+ }
+
+ .little {
+   width: 20%;
+ }
+
+ .team-head {
+   width: 140px;
+   height: 140px;
+   border-radius: 50%;
+   object-fit: cover;
+ }
+
+ .team-card {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin: 50px;
+ }
+
+ .card {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #0D0A26;
+   height: 300px;
+   padding: 0px 40px;
+   margin: 10px 20px;
+   border: 2px #312e49 solid;
+   transition: transform 1s ease-in-out, box-shadow 1s ease-in-out;
+ }
+
+ .card:hover {
+   transform: scale(1.1);
+   box-shadow: 0px 0px 50px white;
+ }
+
+ .team-name {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-family: 'Open Sans', sans-serif;
+   margin: 10px 0px;
+ }
+
+ .team-title {
+   text-align: center;
+ }
+
+ #team {
+   font-size: 40px;
+   font-weight: bold;
+   font-family: 'Open Sans', sans-serif;
+   margin-bottom: 5px;
+ }
+
+ #team-desc {
+   color: rgb(186, 186, 186);
+   margin-bottom: 30px;
+ }
+
+ .team-job {
+   color: rgb(186, 186, 186);
+ }
+
+ .socials {
+   margin-top: 15px;
+ }
+
