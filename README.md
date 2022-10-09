@@ -1,1 +1,1 @@
-# Maquette HTML/CSS, MySQL, PHP, JavaScript
+Maquette HTML/CSS, MySQL, PHP, JavaScript
