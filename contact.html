@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/assets/style/body.css">
     <link rel="stylesheet" href="/assets/style/header.css">
     <link rel="stylesheet" href="/assets/style/footer.css">
-    <link rel="stylesheet" href="/assets/style/myaccount.css">
+    <link rel="stylesheet" href="/assets/style/contact.css">
+    <title>Document</title>
 </head>
 
 <body>
-    <header id="myaccountheader">
+
+    <header>
         <nav>
             <p id="logo">The Power Of Memory</p>
 
@@ -26,36 +26,50 @@
             </ul>
         </nav>
         <div class="titles">
-            <h1>Mon Espace</h1>
-            <h2>Ici vous pouvez changer votre mot de passe ou mail</h2>
+            <h1>Nous contacter</h1>
+            <h2>Toujours là pour vous servir</h2>
         </div>
     </header>
 
-    <section id="formulaire">
+    <section>
+
+        <section class="info">
+
+            <div class="card">
+                <div>
+                    <img class="svg-coord" src="/assets/img/tel.svg" alt="">
+                </div>
+                <p>06 05 04 03 02</p>
+            </div>
+
+            <div class="card">
+                <div>
+                    <img class="svg-coord" src="/assets/img/email-svgrepo-com.svg" alt="">
+                </div>
+                <p>support@powerofmemory.com</p>
+            </div>
+
+            <div class="card">
+                <div>
+                    <img class="svg-coord" src="/assets/img/loc.svg " alt="">
+                </div>
+                <p>paris</p>
+            </div>
+
+        </section>
 
         <form action="">
-            <p>monmail@gmail.com</p>
-            <label for="mail">Nouvelle adresse mail</label>
-            <input type="text" name="mail" id="" class="champs">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="" class="champs">
-            <label for="confirm-password">Confirmer</label>
-            <input type="password" name="confirm-password" id="" class="champs">
+
+            <input class="perso" type="text" placeholder="Nom" id="nom">
+            <input class="perso" type="mail" placeholder="Mail" id="">
+            <input type="text" placeholder="Sujet" id="">
+            <input type="textarea" placeholder="Message" id="">
             <input type="submit" value="Envoyer">
+
         </form>
-        <img src="/assets/img/game-controller-gamepad-svgrepo-com.svg" alt="game controller" id="game-controller">
-        <form action="">
-            <label for="old-password">Ancien password</label>
-            <input type="password" name="old-password" id="" class="champs">
-            <label for="password">Nouveau password</label>
-            <input type="password" name="password" id="" class="champs">
-            <label for="confirm-password">Confirmer</label>
-            <input type="password" name="confirm-password" id="" class="champs">
-            <input type="submit" value="Envoyer">
-        </form>
+
 
     </section>
-
 
     <footer>
         <div class="informations">
@@ -95,6 +109,14 @@
             </ul>
         </div>
     </footer>
+
+
+
+
+
+
+
+
 
 </body>
 

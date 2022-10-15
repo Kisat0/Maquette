@@ -1,0 +1,125 @@
+body {
+    width: 100%;
+    background-color: #141124;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+header {
+
+    height: 70vh;
+    background-image: url("/assets/img/andreasbg.png");
+    box-shadow: none;
+    margin-bottom: 100px;
+}
+
+section {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info,
+form {
+    margin: 0 5%;
+}
+
+.info>div {
+
+    padding: 50px;
+    background-color: #252138;
+
+}
+
+.svg-coord {
+
+    width: 30px;
+    height: 30px;
+
+}
+
+.card {
+
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    width: 150px;
+    height: 80px;
+
+}
+
+.card div {
+    background-color: #EC9122;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+form {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+    margin-top: 50px;
+    
+}
+
+input {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #252138;
+    border: none;
+    height: 50px;
+}
+
+.perso {
+    width: 49%;
+
+}
+
+form input[type = "textarea"] {
+
+    height: 150px;
+}
+
+form input[type="submit"] {
+
+    width: 70px;
+    padding: 5px;
+    background-color: #EC9122;
+}
+
+input::placeholder {
+    position: absolute;
+    top: 15px;
+    left: 15Px;
+}
+
+footer {
+margin-top: 100px;
+
+}
