@@ -5,7 +5,7 @@
 header {
     height: 70vh;
     width: 100%;
-    background-image: url("/assets/img/header.jpg");
+    /* background-image: url("/assets/img/header.jpg"); */
     color: white;
     font-family: 'Open Sans', sans-serif;
     position: relative;

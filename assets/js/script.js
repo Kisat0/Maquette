@@ -3,6 +3,10 @@ var card = document.querySelectorAll('.card');
 var count = 0;
 var width = cardContainer.offsetWidth;
 var widthCard = card[0].offsetWidth;
+var main = document.querySelector('.main')
+var menuJeu = document.getElementById('pop-jeu')
+var easy = document.getElementByI
+
 
 window.addEventListener('resize', function () {
     width = cardContainer.offsetWidth;
@@ -25,6 +29,12 @@ function prev() {
 }
  */
 
-if(medium.style.backgroundColor = 'orange') medium.style.backgroundColor = "blue"
-if(hard.style.backgroundColor = 'orange') hard.style.backgroundColor = "blue"
+function chargeGame(){
+        main.style.display = "none"
 
+        menuJeu.style.display = "flex" 
+}
+                     
+/* if(medium.style.backgroundColor = 'orange') medium.style.backgroundColor = "blue"
+if(hard.style.backgroundColor = 'orange') hard.style.backgroundColor = "blue"
+ */

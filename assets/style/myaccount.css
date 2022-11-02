@@ -61,7 +61,7 @@ form p {
 
 #myaccountheader {
     height: 50vh;
-    background-image: url("/assets/img/andreasbg.png");
+    /* background-image: url("/assets/img/andreasbg.png"); */
     box-shadow: none;
 }
 
