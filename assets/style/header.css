@@ -1,10 +1,15 @@
+:root{
+    --nav-height:10vh;
+}
+
 header {
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-image: url("/assets/img/header.jpg");
     color: white;
     font-family: 'Open Sans', sans-serif;
-    box-shadow: inset 0 0 10px 1000px #3621818c;
+    position: relative;
+    margin-top:var(--nav-height);
 }
 
 nav {
@@ -16,10 +21,11 @@ nav {
     align-items: center;
     font-weight: bold;
     border-bottom: 1px solid white;
-    height: 10vh;
+    height: var(--nav-height);
     background-color: rgb(110, 50, 94);
     top:0;
     left:0;
+    z-index: 2;
 }
 
 nav ul {
@@ -27,7 +33,7 @@ nav ul {
     flex-direction: row;
     flex-wrap: wrap;
     margin: 10px;
-    width: 550px;
+    width: 700px;
     justify-content: space-between;
 }
 
@@ -98,3 +104,12 @@ header input:hover {
 .titles * {
     margin: 10px 0px;
 }
+
+.vid-back{
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom:0;
+    min-width: 100%; 
+    min-height: 100%;
+  } 

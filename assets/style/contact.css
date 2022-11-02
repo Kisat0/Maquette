@@ -13,8 +13,8 @@ body {
 
 header {
 
-    height: 70vh;
-    background-image: url("/assets/img/andreasbg.png");
+    height: 50vh;
+    background-image: url("assets/img/andreasbg.png");
     box-shadow: none;
     margin-bottom: 100px;
 }
@@ -104,6 +104,11 @@ input {
 form input[type = "textarea"] {
 
     height: 150px;
+    color: white;
+}
+
+input{
+    color: white;
 }
 
 form input[type="submit"] {
@@ -114,12 +119,19 @@ form input[type="submit"] {
 }
 
 input::placeholder {
-    position: absolute;
+/*     position: absolute;
     top: 15px;
-    left: 15Px;
+    left: 15Px; */
 }
 
 footer {
 margin-top: 100px;
+
+}
+
+.couche{
+    background-color: #000000aa;
+    height: 100%;
+    width: 100%;
 
 }

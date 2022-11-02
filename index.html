@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Accueil</title>
     <link rel="stylesheet" href="assets/style/header.css">
     <link rel="stylesheet" href="assets/style/body.css">
     <link rel="stylesheet" href="assets/style/footer.css">
@@ -13,246 +13,214 @@
 </head>
 
 <body>
+    <section id="layout">
+        <video src="assets/video/b.mp4" class="vid-back" muted autoplay loop></video>
 
-    <header>
-        <nav>
-            <p id="logo">The Power Of Memory</p>
-
-            <ul>
-                <li><a href="/index.html">Accueil</a></li>
-                <li><a href="#">Jeu</a></li>
-                <li><a href="#">Scores</a></li>
-                <li><a href="/contact.html">Nous contacter</a></li>
-                <li><a href="/myaccount.html">Mon compte</a></li>
-            </ul>
-        </nav>
-        <div class="titles">
-            <h1>Bienvenue dans <br> notre studio !</h1>
-            <h2>Venez challenger les cerveaux les plus agiles !</h2>
-            <input type="button" value="JOUER !">
-        </div>
-    </header>
-    <section id="paragraphs">
-        <section class="slogan">
-            <div class="image">
-                <img src="/assets/img/pc.jpg" alt="pc image">
+        <header>
+            <!--<video id="vedio-header" src="assets/video/b.mp4" muted autoplay loop></video> -->
+            <nav>
+                <p id="logo">The Power Of Memory</p>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="jeu.html">Jeu</a></li>
+                    <li><a href="#">Scores</a></li>
+                    <li><a href="contact.html">Nous contacter</a></li>
+                    <li><a href="myaccount.html">Mon compte</a></li>
+                    <li><a href="login.html">login</a></li>
+                </ul>
+            </nav>
+            <div class="titles">
+                <h1>Bienvenue dans <br> notre studio !</h1>
+                <h2>Venez challenger les cerveaux les plus agiles !</h2>
+                <input type="button" value="JOUER !">
             </div>
-            <div class="paragraph">
-                <p class=shiffres>01</p>
-                <div class="text">
-                    <p class="para-title">Titleeeeeee</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ipsum reprehenderit eveniet
-                        molestiae voluptatem sapiente fuga doloremque blanditiis, debitis earum aspernatur maiores
-                        quia
-                        aliquam ratione dignissimos hic asperiores iste animi.</p>
+        </header>
+
+
+        <section class="main">
+            <div class="cards-container">
+        
+                <div class="card">
+                    <div class="img-jeu show"><img src="assets/img/Feb.webp" alt=""></div>
+                    <div class="card-description">
+                        <span>Memory</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis consequuntur unde
+                            nesciunt hic praesentium, </p>
+                        <button>Jouer</button>
+                    </div>
+                </div>
+                <div class="card show">
+                    <div class="img-jeu"><img src="assets/img/keqing.jpg" alt=""></div>
+                    <div class="card-description">
+                        <span>Memory</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis consequuntur unde
+                            nesciunt hic praesentium, </p>
+                        <button>Jouer</button>
+                    </div>
+                </div>
+                <div class="card show">
+                    <div class="img-jeu"><img src="assets/img/dab.jpg" alt=""></div>
+                    <div class="card-description">
+                        <span>Memory</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis consequuntur unde
+                            nesciunt hic praesentium, </p>
+                        <button>Jouer</button>
+                    </div>
+                </div>
+                <div class="card hide">
+                    <div class="img-jeu"><img
+                            src="assets/img/Genshin-Impact-Candace-date-de-sortie-de-Nilou-et-capacites-1200x900.jpeg" alt="">
+                    </div>
+                    <div class="card-description">
+                        <span>Memory</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis consequuntur unde
+                            nesciunt hic praesentium, </p>
+                        <button>Jouer</button>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="slogan little">
-            <div class="image">
-                <img src="/assets/img/dab.jpg" alt="dab image">
-            </div>
-            <div class="paragraph">
-                <p class=shiffres>02</p>
-                <div class="text">
-                    <p class="para-title">Titleeeeeee</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ipsum reprehenderit eveniet
-                        molestiae voluptatem sapiente fuga doloremque blanditiis, debitis earum aspernatur maiores
-                        quia
-                        aliquam ratione dignissimos hic asperiores iste animi.</p>
+
+
+            <section class="stats">
+
+                <img id="wd" src="assets/img/wd.jpg" alt="wd image">
+
+                <section class="stat">
+                    <div class="statistique" id="partie">
+                        <p class="stat-number">310</p>
+                        <p class="stat-desc"> Parties jouées</p>
+                    </div>
+                    <div class="statistique" id="joueurs1">
+                        <p class="stat-number">1020 </p>
+                        <p class="stat-desc"> joueurs </p>
+                    </div>
+                    <div class="statistique" id="time">
+                        <p class="stat-number">10 sec </p>
+                        <p class="stat-desc">Temps record</p>
+                    </div>
+                    <div class="statistique" id="joueurs">
+                        <p class="stat-number">21300 </p>
+                        <p class="stat-desc">joueurs inscrits</p>
+                    </div>
+                </section>
+
+            </section>
+            <section>
+                <div class="team-title">
+                    <p id="team">Notre Equipe ( ͡° ͜ʖ ͡°)</p>
+                    <p id="team-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque aliquid</p>
+                    <img src="assets/img/159926.svg" alt="">
                 </div>
-            </div>
-        </section>
-        <section class="slogan little">
-            <div class="image">
-                <img src="/assets/img/poker.jpg" alt="poker image">
-            </div>
-            <div class="paragraph">
-                <p class=shiffres>03</p>
-                <div class="text">
-                    <p class="para-title">Titleeeeeee</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ipsum reprehenderit eveniet
-                        molestiae voluptatem sapiente fuga doloremque blanditiis, debitis earum aspernatur maiores
-                        quia
-                        aliquam ratione dignissimos hic asperiores iste animi.</p>
+                <div class="team-card">
+                    <div class="t-card">
+                        <img src="assets/img/keqing.jpg" alt="" class="team-head">
+                        <p class="team-name">
+                            Ben Youcef
+                        </p>
+                        <p class="team-job">Weeb 2.0</p>
+                        <div class="socials">
+                            <img src="assets/img/icons8-facebook-nouveau.svg" alt="facebook logo">
+                            <img src="assets/img/icons8-twitter.svg" alt="twitter logo">
+                            <img src="assets/img/pinterest-2.svg" alt="pinterest logo">
+                        </div>
+                    </div>
                 </div>
+            </section>
+
+            <section id="chat">
+                <div class="hchat">
+                    <img id="robot" src="assets/img/Feb.webp" alt="image robot">
+                    <p>Chat général</p>
+                </div>
+                <div class="chat-body">
+                    <div class="user-msg">
+                        <p class="user-name" id="me">Moi</p>
+                        <p class="msg user" id="hello">Hello</p>
+                        <p class="date-msg">Aujourd'hui à 14h32</p>
+                    </div>
+                    <div class="sav-msg">
+                        <p class="sav-name">Arthur</p>
+                        <p class="msg sav">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iure fugit
+                            exercitationem placeat voluptates ditate.</p>
+                        <p class="date-msg">Aujourd'hui à 14h32</p>
+                    </div>
+                    <div class="sav-msg">
+                        <p class="sav-name">Arthur</p>
+                        <p class="msg sav">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iure fugit
+                            exercitationem placeat voluptates ditate.</p>
+                        <p class="date-msg">Aujourd'hui à 14h32</p>
+                    </div>
+                    <div class="user-msg">
+                        <p class="user-name">Moi</p>
+                        <p class="msg user">Comment ça va ?</p>
+                        <p class="date-msg">Aujourd'hui à 14h33</p>
+                    </div>
+                    <div class="sav-msg">
+                        <p class="sav-name">Arthur</p>
+                        <p class="msg sav">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iure fugit
+                            exercitationem placeat voluptates ditate.</p>
+                        <p class="date-msg">Aujourd'hui à 14h32</p>
+                    </div>
+                    <div class="sav-msg">
+                        <p class="sav-name">Arthur</p>
+                        <p class="msg sav">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iure fugit
+                            exercitationem placeat voluptates ditate.</p>
+                        <p class="date-msg">Aujourd'hui à 14h32</p>
+                    </div>
+                </div>
+                <div class="chat-footer">
+                    <form action="">
+                        <input type="text" placeholder="Rentrer votre message ...">
+                        <input type="submit" value="Envoyer">
+                    </form>
+                </div>
+            </section>
+
+
+        <footer>
+            <div class="informations">
+                <p class="footer-title">Information</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt officia tempora</p>
+
+                <div class="coord">
+                    <p class="coord-name">Email:</p>
+                    <p>monmail@gmail.com</p>
+                </div>
+                <div class="coord">
+                    <p class="coord-name">Tel:</p>
+                    <p>07 50 23 20 23</p>
+                </div>
+                <div class="coord">
+                    <p class="coord-name">Location:</p>
+                    <p>Panam</p>
+                </div>
+
+                <div class="media-links">
+                    <a class="media-link" href="#"><img src="assets/img/icons8-facebook-nouveau.svg" alt=""></a>
+                    <a class="media-link" href="#"> <img src="assets/img/icons8-twitter.svg" alt=""></a>
+                    <a class="media-link" href="#"> <img src="assets/img/icons8-logo-google.svg" alt=""></a>
+                    <a class="media-link" href="#"><img src="assets/img/pinterest-2.svg" alt=""></a>
+                    <a class="media-link" href="#"> <img src="assets/img/icons8-instagram.svg" alt=""></a>
+                </div>
+
+                <p id="copyright">© 2022 Coding Factory Made with ❤️</p>
             </div>
-        </section>
-        </div>
+
+            <div class="footer-nav">
+                <p class="footer-title">Power Of Memory</p>
+                <ul>
+                    <li>Jouer !</li>
+                    <li>Les scores</li>
+                    <li>Nous contacter</li>
+                </ul>
+            </div>
+        </footer>
     </section>
 
-    <section class="stats">
 
-        <img id="wd" src="/assets/img/wd.jpg" alt="wd image">
-
-        <section class="stat">
-            <div class="statistique" id="partie">
-                <p class="stat-number">310</p>
-                <p class="stat-desc"> Parties jouées</p>
-            </div>
-            <div class="statistique" id="joueurs1">
-                <p class="stat-number">1020 </p>
-                <p class="stat-desc"> joueurs </p>
-            </div>
-            <div class="statistique" id="time">
-                <p class="stat-number">10 sec </p>
-                <p class="stat-desc">Temps record</p>
-            </div>
-            <div class="statistique" id="joueurs">
-                <p class="stat-number">21300 </p>
-                <p class="stat-desc">joueurs inscrits</p>
-            </div>
-        </section>
-
-    </section>
-
-    <section>
-        <div class="team-title">
-            <p id="team">Notre Equipe ( ͡° ͜ʖ ͡°)</p>
-            <p id="team-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque aliquid</p>
-            <img src="assets/img/159926.svg" alt="">
-        </div>
-        <div class="team-card">
-            <div class="card">
-                <img src="assets/img/1209874.jpeg" alt="" class="team-head">
-                <p class="team-name">
-                    Anthony
-                </p>
-                <p class="team-job">Dev Full-Stack</p>
-                <div class="socials">
-                    <img src="assets/img/icons8-facebook-nouveau.svg" alt="facebook logo">
-                    <img src="assets/img/icons8-twitter.svg" alt="twitter logo">
-                    <img src="assets/img/pinterest-2.svg" alt="pinterest logo">
-                </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/maxresdefault.jpeg" alt="" class="team-head">
-                <p class="team-name">
-                    Eduardo
-                </p>
-                <p class="team-job">Git Manager</p>
-                <div class="socials">
-                    <img src="assets/img/icons8-facebook-nouveau.svg" alt="facebook logo">
-                    <img src="assets/img/icons8-twitter.svg" alt="twitter logo">
-                    <img src="assets/img/pinterest-2.svg" alt="pinterest logo">
-                </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/keqing.jpg" alt="" class="team-head">
-                <p class="team-name">
-                    Ben Youcef
-                </p>
-                <p class="team-job">Weeb 2.0</p>
-                <div class="socials">
-                    <img src="assets/img/icons8-facebook-nouveau.svg" alt="facebook logo">
-                    <img src="assets/img/icons8-twitter.svg" alt="twitter logo">
-                    <img src="assets/img/pinterest-2.svg" alt="pinterest logo">
-                </div>
-            </div>
-            <!-- <div class="card">
-                <img src="assets/img/téléchargement.jpeg" alt="" class="team-head">
-                <p class="team-name">
-                    Lucas
-                </p>
-                <p class="team-job">Dev Full-Stack</p>
-                <div class="socials">
-                    <img src="assets/img/icons8-facebook-nouveau.svg" alt="facebook logo">
-                    <img src="assets/img/icons8-twitter.svg" alt="twitter logo">
-                    <img src="assets/img/pinterest-2.svg" alt="pinterest logo">
-                </div>
-            </div> -->
-        </div>
-    </section>
-
-    <section id="chat">
-        <div class="hchat">
-            <img id="robot" src="/assets/img/Feb.webp" alt="image robot">
-            <p>Chat général</p>
-        </div>
-        <div class="chat-body">
-            <div class="user-msg">
-                <p class="user-name" id="me">Moi</p>
-                <p class="msg user" id="hello">Hello</p>
-                <p class="date-msg">Aujourd'hui à 14h32</p>
-            </div>
-            <div class="sav-msg">
-                <p class="sav-name">Arthur</p>
-                <p class="msg sav">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iure fugit
-                    exercitationem placeat voluptates ditate.</p>
-                <p class="date-msg">Aujourd'hui à 14h32</p>
-            </div>
-            <div class="sav-msg">
-                <p class="sav-name">Arthur</p>
-                <p class="msg sav">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iure fugit
-                    exercitationem placeat voluptates ditate.</p>
-                <p class="date-msg">Aujourd'hui à 14h32</p>
-            </div>
-            <div class="user-msg">
-                <p class="user-name">Moi</p>
-                <p class="msg user">Comment ça va ?</p>
-                <p class="date-msg">Aujourd'hui à 14h33</p>
-            </div>
-            <div class="sav-msg">
-                <p class="sav-name">Arthur</p>
-                <p class="msg sav">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iure fugit
-                    exercitationem placeat voluptates ditate.</p>
-                <p class="date-msg">Aujourd'hui à 14h32</p>
-            </div>
-            <div class="sav-msg">
-                <p class="sav-name">Arthur</p>
-                <p class="msg sav">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iure fugit
-                    exercitationem placeat voluptates ditate.</p>
-                <p class="date-msg">Aujourd'hui à 14h32</p>
-            </div>
-        </div>
-        <div class="chat-footer">
-            <form action="">
-                <input type="text" placeholder="Rentrer votre message ...">
-                <input type="submit" value="Envoyer">
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="informations">
-            <p class="footer-title">Information</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt officia tempora</p>
-
-            <div class="coord">
-                <p class="coord-name">Email:</p>
-                <p>monmail@gmail.com</p>
-            </div>
-            <div class="coord">
-                <p class="coord-name">Tel:</p>
-                <p>07 50 23 20 23</p>
-            </div>
-            <div class="coord">
-                <p class="coord-name">Location:</p>
-                <p>Panam</p>
-            </div>
-
-            <div class="media-links">
-                <a class="media-link" href="#"><img src="/assets/img/icons8-facebook-nouveau.svg" alt=""></a>
-                <a class="media-link" href="#"> <img src="/assets/img/icons8-twitter.svg" alt=""></a>
-                <a class="media-link" href="#"> <img src="/assets/img/icons8-logo-google.svg" alt=""></a>
-                <a class="media-link" href="#"><img src="/assets/img/pinterest-2.svg" alt=""></a>
-                <a class="media-link" href="#"> <img src="/assets/img/icons8-instagram.svg" alt=""></a>
-            </div>
-
-            <p id="copyright">© 2022 Coding Factory Made with ❤️</p>
-        </div>
-
-        <div class="footer-nav">
-            <p class="footer-title">Power Of Memory</p>
-            <ul>
-                <li>Jouer !</li>
-                <li>Les scores</li>
-                <li>Nous contacter</li>
-            </ul>
-        </div>
-    </footer>
-
-
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 
 </html>

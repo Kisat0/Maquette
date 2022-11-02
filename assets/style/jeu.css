@@ -1,0 +1,129 @@
+body {
+    width: 100%;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+.couche {
+    background-color: #000000aa;
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+    height: 50vh;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    transition: transform 500ms ease-in-out; /* for javascript */
+}
+
+.img-jeu {
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.img-jeu img {
+    /* on ajoute les propriétés max afin de ne pas
+    dépasser la largeur et la hauteur de la balise div``
+ parent .img-jeu */
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+/* °\(°-°)/° */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    height: 100%;
+    background-color: rgba(11, 78, 75, 0.637);
+    border-radius: 10%;
+    transition: all 500ms ease-in-out;    
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 2px rgb(110, 85, 39);
+    background-color: rgb(36, 139, 139);
+}
+
+.card-description {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.card-description button {
+    /* °\(°0°)/° */
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10%;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: none;
+    box-shadow: 0px 0px 5px 2px white;
+    letter-spacing: 1px;
+    transition: transform 500ms ease-in-out,
+    box-shadow 500ms ease-in, background-color 500ms ease-in-out,
+    color 500ms ease-in-out;
+    margin-bottom: 10px;
+}
+
+.card-description button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 2px rgb(12, 53, 48);
+    background-color: rgb(11, 55, 50);
+    color: rgb(255, 255, 255);
+}
+
+span {
+    color: rgb(254, 254, 254);
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.arrow{
+    width: 30px;
+    height: 30px;
+    z-index: 2;
+}
+
+#header-jeu{
+    height: 20vh;
+}
+
+.show{
+    display: flex;
+}
+
+.hide{
+    display: none
+}

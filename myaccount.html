@@ -6,96 +6,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/assets/style/body.css">
-    <link rel="stylesheet" href="/assets/style/header.css">
-    <link rel="stylesheet" href="/assets/style/footer.css">
-    <link rel="stylesheet" href="/assets/style/myaccount.css">
+    <link rel="stylesheet" href="assets/style/header.css">
+    <link rel="stylesheet" href="assets/style/footer.css">
+    <link rel="stylesheet" href="assets/style/myaccount.css">
 </head>
 
 <body>
-    <header id="myaccountheader">
-        <nav>
-            <p id="logo">The Power Of Memory</p>
+    <section class="couche">
+        <video src="assets/video/b.mp4" class="vid-back" muted autoplay loop></video>
+        <header id="myaccountheader">
+            <nav>
+                <p id="logo">The Power Of Memory</p>
 
-            <ul>
-                <li><a href="/index.html">Accueil</a></li>
-                <li><a href="#">Jeu</a></li>
-                <li><a href="#">Scores</a></li>
-                <li><a href="/contact.html">Nous contacter</a></li>
-                <li><a href="/myaccount.html">Mon compte</a></li>
-            </ul>
-        </nav>
-        <div class="titles">
-            <h1>Mon Espace</h1>
-            <h2>Ici vous pouvez changer votre mot de passe ou mail</h2>
-        </div>
-    </header>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="jeu.html">Jeu</a></li>
+                    <li><a href="#">Scores</a></li>
+                    <li><a href="contact.html">Nous contacter</a></li>
+                    <li><a href="myaccount.html">Mon compte</a></li>
+                </ul>
+            </nav>
+            <div class="titles">
+                <h1>Mon Espace</h1>
+                <h2>Ici vous pouvez changer votre mot de passe ou mail</h2>
+            </div>
+        </header>
 
-    <section id="formulaire">
+        <section>
 
-        <form action="">
-            <p>monmail@gmail.com</p>
-            <label for="mail">Nouvelle adresse mail</label>
-            <input type="text" name="mail" id="" class="champs">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="" class="champs">
-            <label for="confirm-password">Confirmer</label>
-            <input type="password" name="confirm-password" id="" class="champs">
-            <input type="submit" value="Envoyer">
-        </form>
-        <img src="/assets/img/game-controller-gamepad-svgrepo-com.svg" alt="game controller" id="game-controller">
-        <form action="">
-            <label for="old-password">Ancien password</label>
-            <input type="password" name="old-password" id="" class="champs">
-            <label for="password">Nouveau password</label>
-            <input type="password" name="password" id="" class="champs">
-            <label for="confirm-password">Confirmer</label>
-            <input type="password" name="confirm-password" id="" class="champs">
-            <input type="submit" value="Envoyer">
-        </form>
+            <form action="">
+                <label for="picture" class="input-picture">
+                    <div class="profil-picture-container">
+                        <img src="assets/img/dab.jpg" class="profil-user-img" alt="">
+                        <div class="picture-icon-container">
+                            <img src="assets/img/383148_edit_icon.svg" alt="">
+                        </div>
+                    </div>
+                </label>
+                <input type="file" name="picture" id="picture" value="">
 
+                <div class="account-informations">
+                    <div class="ac-info">
+                        <p>Mail:</p>
+                        <p>monadressemail@gmail.com</p>
+                        <img class="edit-icon" src="assets/img/383148_edit_icon.svg" alt="">
+                    </div>
+                    <div class="ac-info">
+                        <p>Username:</p>
+                        <p>Bobby</p>
+                        <img class="edit-icon" src="assets/img/383148_edit_icon.svg" alt="">
+                    </div>
+                    <div class="ac-info">
+                        <p>Mot de passe:</p>
+                        <p>••••••••••••</p>
+                        <img class="edit-icon" src="assets/img/383148_edit_icon.svg" alt="">
+                    </div>
+                </div>
+               <!--  <label for="mail">Nouvelle adresse mail</label>
+                <input type="text" name="mail" id="" class="champs">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="" class="champs">
+                <label for="confirm-password">Confirmer</label>
+                <input type="password" name="confirm-password" id="" class="champs">
+                <input type="submit" value="Envoyer"> -->
+            </form>
+
+        </section>
+
+
+        <footer>
+            <div class="informations">
+                <p class="footer-title">Information</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt officia tempora</p>
+
+                <div class="coord">
+                    <p class="coord-name">Email:</p>
+                    <p>monmail@gmail.com</p>
+                </div>
+                <div class="coord">
+                    <p class="coord-name">Tel:</p>
+                    <p>07 50 23 20 23</p>
+                </div>
+                <div class="coord">
+                    <p class="coord-name">Location:</p>
+                    <p>Panam</p>
+                </div>
+
+                <div class="media-links">
+                    <a class="media-link" href="#"><img src="assets/img/icons8-facebook-nouveau.svg" alt=""></a>
+                    <a class="media-link" href="#"> <img src="assets/img/icons8-twitter.svg" alt=""></a>
+                    <a class="media-link" href="#"> <img src="assets/img/icons8-logo-google.svg" alt=""></a>
+                    <a class="media-link" href="#"><img src="assets/img/pinterest-2.svg" alt=""></a>
+                    <a class="media-link" href="#"> <img src="assets/img/icons8-instagram.svg" alt=""></a>
+                </div>
+
+                <p id="copyright">© 2022 Coding Factory Made with ❤️</p>
+            </div>
+
+            <div class="footer-nav">
+                <p class="footer-title">Power Of Memory</p>
+                <ul>
+                    <li>Jouer !</li>
+                    <li>Les scores</li>
+                    <li>Nous contacter</li>
+                </ul>
+            </div>
+        </footer>
     </section>
-
-
-    <footer>
-        <div class="informations">
-            <p class="footer-title">Information</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt officia tempora</p>
-
-            <div class="coord">
-                <p class="coord-name">Email:</p>
-                <p>monmail@gmail.com</p>
-            </div>
-            <div class="coord">
-                <p class="coord-name">Tel:</p>
-                <p>07 50 23 20 23</p>
-            </div>
-            <div class="coord">
-                <p class="coord-name">Location:</p>
-                <p>Panam</p>
-            </div>
-
-            <div class="media-links">
-                <a class="media-link" href="#"><img src="/assets/img/icons8-facebook-nouveau.svg" alt=""></a>
-                <a class="media-link" href="#"> <img src="/assets/img/icons8-twitter.svg" alt=""></a>
-                <a class="media-link" href="#"> <img src="/assets/img/icons8-logo-google.svg" alt=""></a>
-                <a class="media-link" href="#"><img src="/assets/img/pinterest-2.svg" alt=""></a>
-                <a class="media-link" href="#"> <img src="/assets/img/icons8-instagram.svg" alt=""></a>
-            </div>
-
-            <p id="copyright">© 2022 Coding Factory Made with ❤️</p>
-        </div>
-
-        <div class="footer-nav">
-            <p class="footer-title">Power Of Memory</p>
-            <ul>
-                <li>Jouer !</li>
-                <li>Les scores</li>
-                <li>Nous contacter</li>
-            </ul>
-        </div>
-    </footer>
-
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 
 </html>
