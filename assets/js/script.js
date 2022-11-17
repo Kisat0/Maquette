@@ -165,7 +165,7 @@ function chrono() {
     else if (msec < 100) {
         msec = "0" + msec
     }
-    document.getElementById("chrono").innerHTML = hr + ":" + min + ":" + sec + ":" + msec
+    document.getElementById("chrono").innerHTML = hr + ":" + min + ":" + sec + ":" + msec + "⏰"
     timerID = setTimeout("chrono()", 10)
 }
 function chronoStart() {

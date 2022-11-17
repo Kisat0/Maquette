@@ -48,6 +48,7 @@ body {
  parent .img-jeu */
     max-width: 100%;
     max-height: 100%;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 10%;
@@ -138,6 +139,7 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     max-width: 100%;
     width: 80%;
     height: 50vh;
@@ -150,8 +152,6 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    max-width: 60%;
-    height: 50%;
     background-color: rgba(43, 26, 59, 0.76);
 }
 
@@ -159,8 +159,6 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    max-width: 60%;
-    height: 50%;
     background-color: rgba(43, 26, 59, 0.76);
 }
 
@@ -168,13 +166,19 @@ span {
     background-color: rgb(29, 174, 126);
     color: aliceblue;
     text-align: center;
-    height: 20px;
-    width: 200px;
-    margin: 30px;
-    padding: 30px 30px;
+    padding: 10px;
     text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    width: 120px;
+    transition: all 200ms ease-in-out;
+}
 
+.menu-jeu input[type=button]:hover{
+    box-shadow: 0px 0px 5px 2px rgb(255, 255, 255);
 }
 
 .menu-jeu p{
@@ -182,42 +186,78 @@ span {
     text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
     
 }
 
 .lancez {
-    padding: 20px 30px;
+    padding: 10px 30px;
     margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 500ms ease-in-out;
+}
+
+.lancez:hover{
+    box-shadow: 0px 0px 5px 2px white;
 }
 
 
 table {
     table-layout: fixed;
-    height: 80%;
-    width: 80%;
-    margin: 10%;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    border-spacing: 20px;
+
     /* display: flex;
     align-items: center; */
+}
+
+#chrono{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+tbody{
+    width: 100%;
+    height: 100%;
 }
 
 #nilou{
     display: flex;
     align-items: center;
+    max-width: 100%;
 }
 
 
-td {
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 100px;
-    object-fit: cover;
-    margin-top: 50px;
-}
 
-td img {
+tr{
     width: 100%;
     height: 100%;
+}
+
+td{
+    height: 200px;
+/*     display: flex; */
+    flex-direction: column;
+    justify-content: start;
+    width: 200px;
+    object-fit: cover;
+    flex-wrap: wrap;
+}
+
+
+td img {
+    width: 100%; 
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:cover;
+ 
+
 }
 
 .btn{

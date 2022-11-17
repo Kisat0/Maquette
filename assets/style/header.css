@@ -113,3 +113,7 @@ header input:hover {
     min-width: 100%; 
     min-height: 100%;
   } 
+
+  #logo{
+    font-size: 18px;
+  }

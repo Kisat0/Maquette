@@ -41,7 +41,7 @@ form {
 .info>div {
 
     padding: 50px;
-    background-color: #252138;
+    background-color: #252138c2;
 
 }
 
@@ -91,7 +91,7 @@ form {
 input {
     width: 100%;
     margin-top: 10px;
-    background-color: #252138;
+    background-color: #252138b2;
     border: none;
     height: 50px;
 }
@@ -119,9 +119,9 @@ form input[type="submit"] {
 }
 
 input::placeholder {
-/*     position: absolute;
+    position: absolute;
     top: 15px;
-    left: 15Px; */
+    left: 15Px; 
 }
 
 footer {
