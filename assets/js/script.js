@@ -237,7 +237,7 @@ button.addEventListener('click', function () {
     if (difficulty == undefined ) {
 
         var para = document.createElement("p")
-        var erreur = document.createTextNode('faut choisir un thème avant gros con')
+        var erreur = document.createTextNode('faut choisir un thème avant.')
         para.appendChild(erreur)
         gril.appendChild(para)
 
